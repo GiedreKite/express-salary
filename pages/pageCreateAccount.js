@@ -38,6 +38,8 @@ export function pageCreateAccount() {
             </main>
 
             ${footer()}
+
+            <script src="/js/create-account.js" type="module"></script>
         </body>
         </html>`;
 }
