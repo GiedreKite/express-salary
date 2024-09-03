@@ -2,7 +2,7 @@ import express from 'express';
 import { routerMain } from './router/routerMain.js';
 
 const app = express();
-const port = 5018;
+const port = 5035;
 
 app.use(express.json({
     type: 'application/json',

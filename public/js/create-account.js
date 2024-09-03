@@ -14,7 +14,7 @@ formDOM.addEventListener('submit', e => {
         rate: rateDOM.value,
     };
 
-    fetch('http://localhost:5018/api/account', {
+    fetch('http://localhost:5035/api/account', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
